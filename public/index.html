@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Whats Up ! Know what other's are up to in Realtime !</title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200">
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./assets/pusher-logo.png" />
+            </div>
+            <div id="logout" class="logout">
+               <a href="/logout">Logout</a>
+            </div>
+        </header>
+        <section class="subheader">
+            <img class="weather-icon" src="./assets/weather.png" />
+            <h2>Realtime Weather Updates for London !</h2>
+            <img class="weather-icon" src="./assets/london-icon.png" height="70px" />
+        </section>
+        <section>
+           <div id="loader" class="loader">
+           </div>
+           <canvas id="weatherChart">
+
+           </canvas>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+        <script src="https://js.pusher.com/4.0/pusher.min.js"></script>
+        <script type="text/javascript" src="./app.js"></script>
+    </body>
+</html>
