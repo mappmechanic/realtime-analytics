@@ -80,6 +80,7 @@ header{
 }
 
 #weatherChart{
-    height:350px;
-    width:600px;
+    height: 80% !important;
+    width: 95% !important;
+    margin: 0 auto;
 }
