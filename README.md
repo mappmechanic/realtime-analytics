@@ -1,6 +1,8 @@
 # realtime-analytics
 Realtime Analytics app using vanilla JS &amp; Pusher
 
+[View tutorial](https://pusher.com/tutorials/graph-javascript)
+
 ## Prerequisite Softwares
 - NodeJS
 - NPM
