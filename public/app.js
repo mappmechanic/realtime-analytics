@@ -6,6 +6,7 @@
     var serverUrl = "/",
         members = [],
         pusher = new Pusher('<your-api-key>', {
+          cluster: '<your-app-cluser>',
           encrypted: true
         }),
         channel,weatherChartRef;

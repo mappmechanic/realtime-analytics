@@ -8,6 +8,7 @@ var pusher = new Pusher({
     appId: '<your-app-id>',
     key: '<your-api-key>',
     secret: '<your-app-secret>',
+    cluster: '<your-app-cluster>',
     encrypted: true
 });
 
